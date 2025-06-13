@@ -1,0 +1,122 @@
+body {
+  background-image: url("images/images/header_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.navbar .collapse {
+  color: white !important; }
+
+.section .col-4 h2 {
+  font-family: "Droid Sans Mono Dotted", sans-serif !important; }
+
+.nav-link.active {
+  border-bottom: 2px solid #000; }
+
+.img-custom {
+  width: 100%;
+  height: auto;
+  object-fit: cover; }
+
+.image-box {
+  position: relative;
+  overflow: hidden; }
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  display: block; }
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px 20px;
+  border-radius: 10px; }
+
+.card-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px; }
+
+.custom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; }
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); }
+
+.carousel-indicators button {
+  width: 18px !important;
+  height: 18px !important;
+  background-color: darkblue !important;
+  margin-left: 10px;
+  border-radius: 50%;
+  margin-top: 15px !important; }
+
+.btn-purple {
+  background-color: #2e2366;
+  color: #fff; }
+
+.btn-purple:hover {
+  background-color: #1d1642;
+  color: #fff; }
+
+.question-title {
+  font-weight: bold; }
+
+.vote-bar {
+  height: 8px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  overflow: hidden; }
+
+.vote-bar-fill {
+  width: 60%;
+  background-color: #2c2360;
+  height: 100%; }
+
+.btn-vote {
+  background-color: #2c2360;
+  color: white;
+  border-radius: 5px; }
+
+.btn-vote:hover {
+  background-color: #1e1a45; }
+
+.radio-label {
+  font-weight: bold;
+  margin-right: 15px; }
+
+.footer {
+  background: url("images/images/footer_bg.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 40px 0; }
+
+.footer a {
+  color: white;
+  text-decoration: none; }
+
+.footer a:hover {
+  text-decoration: underline; }
+
+.footer-logo {
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: bold; }
+
+.footer-logo span {
+  font-size: 1.2rem;
+  display: block; }
+
+.footer img {
+  max-height: 120px; }
+
+/*# sourceMappingURL=style.css.map */
